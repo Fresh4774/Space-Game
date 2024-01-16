@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background: #638889;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body canvas {
+  box-shadow: 0.2em 0.2em 2em #222831;
+  border: none;
+  outline: none;
+}
